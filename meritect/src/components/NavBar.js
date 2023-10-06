@@ -6,7 +6,7 @@ const NavBar = () => {
   
   return (
     <div className='nav-bar'> 
-      <a href='./NavBar.js' ><img src={Logo} alt="Logo"  /></a>
+      <a href='./' ><img src={Logo} alt="Logo"  /></a>
       <ul className='list-nav'> 
         <li className='list-1'><Link to="/" >หน้าหลัก</Link></li>
         <li className='list-2'><a href="#">รายชื่อมูลนิธิ</a></li>

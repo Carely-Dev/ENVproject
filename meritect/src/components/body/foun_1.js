@@ -20,7 +20,7 @@ const foun_1 =(props) => {
                         
                         <div className="detail-data-1"> 
                                 <div className="detail-1-a">
-                                    <Link to={link} >รายละเอียด</Link>
+                                    <Link to={link} style={{marginLeft:'10px'}}>รายละเอียด</Link>
                                     
                                 </div>
                         </div>

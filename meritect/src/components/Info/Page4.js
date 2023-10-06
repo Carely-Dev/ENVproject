@@ -6,9 +6,23 @@ import BeatLoader from "react-spinners/BeatLoader";
 import Info from "./Data.js"
 import Contect from "./contect.js"
 import OtherPage from "./Other.js"
-const Page4 = () => {  
+const Page4 = ({data}) => {  
     const [loading, setLoading] = useState(false);
+    const infoText = <div>
+    <span style={{ fontSize: '28px' }}>มีจุดประสงค์</span><br/>&emsp;คือ จะประสานความช่วยเหลือซึ่งกันและกัน ตั้งแต่ การรักษาพยาบาล การดูแล การใช้บริการ การดูแลแบบประคับประคอง และสิทธิประโยชน์ เพื่อให้ผู้ป่วยมะเร็งมีคุณภาพชีวิต สามารถรับมือกับปัญหาที่เกิดขึ้นทุกมิติ มูลนิธิยังได้รับการสนับสนุนจากองค์กรทั้งภาครัฐ ภาคเอกชน ภาคประชาสังคมเป็น<br/>อย่างดีตลอดมา
 
+
+    
+
+  </div>
+    const infolocal = <div>
+  เลขที่ 186 ซอยรามอินทรา 39
+แขวงอนุสาวรีย์ เขตบางเขน
+จ.กรุงเทพฯ 10220
+</div>
+const infoname = <div>
+บ้านพักเด็กและครอบครัว จ.ขอนแก่น<br/> จ.ขอนแก่น
+</div>
     useEffect(() => { 
         setLoading(true);
         setTimeout(() => { 
@@ -27,6 +41,11 @@ const Page4 = () => {
                     </div>
                     <div className="slide">
                         <Slide4 />
+                    </div>
+                    <div className="Info-data"> 
+                        <Info img="https://drive.google.com/uc?id=1mjCt0AWfIf4158qSq4bgkP5AFzN5PZ_X" name="มูลนิธิเครือข่ายมะเร็ง" info={infoText}/>
+                        <Contect info1="sirintip@thaicancersociety.com" info2="062-592-2425, 092-519-2899" info3={infolocal} link="https://thaicancersociety.com/" link1="https://www.facebook.com/thaicancersociety"/>
+                        <OtherPage data={data}/>
                     </div>
                     
                 </div>

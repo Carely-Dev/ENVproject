@@ -6,21 +6,16 @@ import "./loading.css"
 import Info from "./Data.js"
 import Contect from "./contect.js"
 import OtherPage from "./Other.js"
-const Page2 = () => {  
+const Page2 = ({data}) => {  
+    
     const [loading, setLoading] = useState(false);
     const infoText = <div>
-    <span style={{ fontSize: '28px' }}>มีจุดประสงค์ <br/>&emsp;เพื่อปรับปรุงสวัสดิภาพของสุนัขและแมวในเอเชีย <br/>ส่งผลให้ชีวิตดีขึ้นสําหรับทั้งชุมชนสัตว์และมนุษย์ </span><br/>
-    <br/>
-    กิจกรรมที่มูลนิธิให้ความช่วยเหลือ<br />
-    &emsp;• การให้ความช่วยเหลือสุนัข<br />
-    &emsp;• การทำหมัน  <br />
-    &emsp;• การฉีดวัคซีน  <br />
-    &emsp;• การรักษาพยาบาล   <br />
-    &emsp;• ศูนย์พักพิง  <br />
-    &emsp;• การอุปการะ
+    <span style={{ fontSize: '28px' }}>มีจุดประสงค์</span><br/>&emsp;คือ การรวมพลังเป็นหนึ่งจากทั้งภาครัฐ เอกชน และประชาชนทั่วไป ในการทำงานร่วมกันเพื่อกำจัดโรคพยาธิใบไม้ในตับและลดโรคมะเร็งท่อน้ำดี
+ช่วยขยายโอกาสให้กับผู้ป่วยมะเร็งท่อน้ำดี ให้เข้าถึงการดูแลรักษา และได้รับการอุดหนุนค่ารักษาพยาบาลที่จำเป็น
+สนับสนุนคณาจารย์ นักวิจัย และนักศึกษา โดยการจัดสรรเงินเพื่อค้นค ว้าวิจัย ให้ทุนการศึกษา และฝึกอบรมหลักสูตรการผ่าตัด วินิจฉัยและการดูแลผู้ป่วยมะเร็งท่อน้ำดี
   </div>
   const infolocal = <div>
-        "มูลนิธิเพื่อสุนัขในซอย ซ.ไม้ขาว10 ม.4 ต.ไม้ขาว อ.ถลาง จ.ภูเก็ต 83110 <br/>เปิดทำการในวันจันทร์-วันศุกร์ ตั้งแต่เวลา 08:00 - 21:00 น."
+        ห้อง 5307 ตึกเวชวิชชาคาร คณะแพทยศาสตร์ มหาวิทยาลัยขอนแก่น <br/> Thailand, Khon Kaen 
     </div>
     useEffect(() => { 
         setLoading(true);
@@ -42,9 +37,9 @@ const Page2 = () => {
                         <Slide2 />
                     </div>
                     <div className="Info-data"> 
-                        <Info img="https://drive.google.com/uc?id=1dCi8KvlNGD9AgUFhly7A-GkCMyBZ3S4e" name="มูลนิธิมะเร็งท่อน้ำดี คณะแพทยศาสตร์ มข." info={infoText}/>
-                        <Contect info1="clinic@soidog.org" info2="076 681 029" info3={infolocal} link="https://www.soidog.org/th/content/contact-us" link1="https://www.facebook.com/SoiDogInThai/"/>
-                        <OtherPage />
+                        <Info img="https://drive.google.com/uc?id=1cQ7jNFwmwYgVbo1KemHKgKaAbcLFDtQD" name="มูลนิธิมะเร็งท่อน้ำดี คณะแพทยศาสตร์ มข." info={infoText}/>
+                        <Contect info1="ccafoundationthailand@gmail.com" info2="092 558 8122" info3={infolocal} link="http://cca.in.th/wpth/home/" link1="https://www.facebook.com/CCAFoundationthai"/>
+                        <OtherPage data={data}/>
                     </div>
                     
 

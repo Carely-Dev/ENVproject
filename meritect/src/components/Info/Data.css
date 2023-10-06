@@ -2,13 +2,16 @@
     max-width: 1170px;
     /* border : 1px solid red; */
     margin: 0 auto;
+    margin-bottom: 10px;
+    
 }
 .logo-data { 
     max-width: 1170px;
     /* border : 1px solid red; */
-    
+    align-items: center;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    
     
 
 }
@@ -29,7 +32,9 @@
     font-size: 24px;
     text-align: start;
     width: 735px;
+    padding-top: 30px;
     /* border : 1px solid red; */
     margin: 0 auto;
+    align-items: center;
 
 }

@@ -7,7 +7,8 @@ import "./loading.css"
 import Info from "./Data.js"
 import Contect from "./contect.js"
 import OtherPage from "./Other.js"
-const Page1 = () => {
+const Page1 = ({data}) => {
+    console.log(data);
     const [loading, setLoading] = useState(false);
 
     useEffect(() => { 
@@ -46,7 +47,7 @@ const Page1 = () => {
                     <div className="Info-data"> 
                         <Info img="https://drive.google.com/uc?id=1dCi8KvlNGD9AgUFhly7A-GkCMyBZ3S4e" name="มูลนิธิเพื่อสุนัขในซอย, ประเทศไทย (Soi Dog - in Thai)" info={infoText}/>
                         <Contect info1="clinic@soidog.org" info2="076 681 029" info3={infolocal} link="https://www.soidog.org/th/content/contact-us" link1="https://www.facebook.com/SoiDogInThai/"/>
-                        <OtherPage />
+                        <OtherPage data={data} />
                     </div>
                     
 

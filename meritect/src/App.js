@@ -21,18 +21,20 @@ import Page17 from "./components/Info/Page17.js"
 import Page18 from "./components/Info/Page18.js"
 import Page19 from "./components/Info/Page19.js"
 import Page20 from "./components/Info/Page20.js"
+import data from './components/data/data';
 import { Routes, Route } from 'react-router';
 function App() {
   return (
     <div> 
       <Routes>
         <Route path="/" element={<PageHome />} />
-        <Route path="/Page1" element={<Page1 />} />
-        <Route path="/Page2" element={<Page2 />} />
-        <Route path="/Page3" element={<Page3 />} />
-        <Route path="/Page4" element={<Page4 />} />
-        <Route path="/Page5" element={<Page5 />} />
-        <Route path="/Page6" element={<Page6 />} />
+        {/* <Route path="/" element={<Datatest />} /> */}
+        <Route path="/มูลนิธิเพื่อสุนัขในซอย, ประเทศไทย (Soi Dog - in Thai)" element={<Page1 data={data[1]} />} />
+        <Route path="/มูลนิธิมะเร็งท่อน้ำดีคณะแพทยศาสตร์ มข." element={<Page2 data={data[2]}/>} />
+        <Route path="/บ้านพักคนชรานักบุญโยเซฟขอนแก่น" element={<Page3 data={data[3]}/>} />
+        <Route path="/มูลนิธิเครือข่ายมะเร็ง" element={<Page4 data={data[4]}/>} />
+        <Route path="/มูลนิธิตะวันฉายเพื่อผู้ป่วยปากแหว่งเพดานโหว่และพิการทางศีรษะและใบหน้า" element={<Page5 data={data[5]}/>} />
+        <Route path="/saved souls foundation" element={<Page6 />} />
         <Route path="/Page7" element={<Page7 />} />
         <Route path="/Page8" element={<Page8 />} />
         <Route path="/Page9" element={<Page9 />} /> 
