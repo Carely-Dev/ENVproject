@@ -1,0 +1,63 @@
+.box { 
+    max-width: 1170px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    /* border : 1px solid red; */
+}
+.email{ 
+    margin-left: 250px;
+    margin-top: 20px;
+    display : flex;
+}
+.email p{ 
+   font-size: 24px;
+    margin-left: 10px;
+    color : #000;
+}
+.call{ 
+    margin-left: 250px;
+    margin-top: 20px;
+    display : flex;
+
+}
+.call p{ 
+    font-size: 24px;
+     margin-left: 10px;
+     color : #000;
+     
+ }
+.local{
+    margin-left: 250px;
+    margin-top: 20px;
+    display : flex;
+    /* border : 1px solid red; */
+}
+.local img{
+    width: 32px;
+    height: 32px;
+}
+.local p{ 
+    font-size: 24px;
+     margin-left: 10px;
+     color : #000;
+ }
+.webface{ 
+    margin-top: 5px;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.Web{ 
+    margin: 20px;
+}
+
+.box h1{ 
+    font-size: 48px;
+    margin-left: 200px;
+    
+}
+.webface a{ 
+    cursor: pointer;
+}
+

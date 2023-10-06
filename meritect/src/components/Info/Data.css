@@ -1,0 +1,35 @@
+.logo-data-info { 
+    max-width: 1170px;
+    /* border : 1px solid red; */
+    margin: 0 auto;
+}
+.logo-data { 
+    max-width: 1170px;
+    /* border : 1px solid red; */
+    
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+.logo-data img { 
+    /* border : 1px solid red; */
+    width: 200px;
+    height: 200px;
+    margin-top: 80px;
+    
+}
+.logo-data h1 { 
+    /* border : 1px solid red; */
+    font-size: 64px;
+    margin-left: 30px;
+   
+}
+.info-data-1 p { 
+    font-size: 24px;
+    text-align: start;
+    width: 735px;
+    /* border : 1px solid red; */
+    margin: 0 auto;
+
+}

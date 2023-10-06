@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap');
+.info-data {
+    margin: 0 auto;
+    max-width: 1170px;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column ; /* จัดให้อยู่ในรูปแบบคอลัมน์ */
+    align-items: center;
+    text-align: center; /* จัดให้เนื้อหาอยู่ตรงกลางแนวนอน */
+    padding: 30px; /* เพิ่มการเติมระยะขอบ */
+    height: 100%;
+  }
+  
+  
+  
+  .info-p {
+    margin-bottom: 20px; /* เพิ่มระยะห่างด้านล่างของข้อความ */
+    /* border : 1px solid blue; */
+    font-size: 32px;
+    font-family: 'Kanit', sans-serif;
+    color : #318CE7;
+  }
+  
+  .info-button {
+    background-color: #318CE7; /* เปลี่ยนสีพื้นหลังของปุ่ม */
+    color: #fff; /* เปลี่ยนสีตัวอักษร */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 32px;
+    width: 200px;
+    /* border : 1px solid blue; */
+    font-family: 'Kanit', sans-serif;
+    box-shadow: 0 1 5px 0 black; /* เพิ่มเงา */
+    border-radius: 50px;
+  }
+  
+  .info-button:hover {
+    background-color: #b6b6b8; /* เปลี่ยนสีพื้นหลังของปุ่มเมื่อโฮเวอร์ */
+  }

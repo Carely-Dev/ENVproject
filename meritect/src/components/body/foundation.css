@@ -1,0 +1,131 @@
+.body-web{ 
+    margin: 0 auto;
+    background-color: #ECECEC;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column ; /* จัดให้อยู่ในรูปแบบคอลัมน์ */
+    align-items: center;
+    text-align: center; /* จัดให้เนื้อหาอยู่ตรงกลางแนวนอน */
+    padding: 30px; /* เพิ่มการเติมระยะขอบ */
+    height: 1490px;
+    
+    
+}
+h1 {
+    
+    font-size: 60px;
+    color : #318CE7;
+    margin-top: 82px;
+   
+}
+.select-mode { 
+    margin-top: 50px;
+    font-size: 32px;
+    font-family: 'Kanit', sans-serif;
+    color : #318CE7;
+    padding : 0px 10px 0px 0px ;
+    
+    
+    
+}
+option{
+    text-align: center;
+    width: 300px;
+} 
+.select-mode{ 
+    width: 400px;
+    height: 90px;
+    background-color: white;
+    /* border : 1px solid red; */
+    border-radius: 50px;
+    border: none;
+}
+   
+.select-mode select {
+    margin-top: 15px;
+    width: 280px;
+    height: 60px;
+    font-size: 28px;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    background-color: white; 
+}
+.input-search { 
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 50px;
+    display: flex;
+    max-width: 830px;
+    height: px;
+    margin-bottom: 40px;
+    /* border : 1px solid red; */
+    
+    
+}
+.select-icon{ 
+    font-size: 24px;
+    
+    
+}
+
+.input-search input {
+    outline: none;
+    width: 830px;
+    height: 80px;
+    font-size: 24px;
+    border-radius: 40px ;
+    cursor: pointer;
+    border: none;
+    background-color: white;
+    padding-left: 20px;
+    /* border : 1px solid red; */
+    border: none;
+    
+
+    
+    
+}
+.input-search img {
+    margin-top: 10px;
+    /* border : 1px solid red; */
+    width: 55px;
+    height: 55px;
+    margin-right: 10px;
+    margin-left: 10px; 
+}
+.grid-layout { 
+    max-width: 1170px;
+    width: 1170px;
+    /* border : 1px solid red; */
+    height: 870px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 คอลัมน์ที่มีขนาดเท่ากัน */
+    grid-template-rows: repeat(4, 0fr); /* 4 แถวที่มีขนาดเท่ากัน */
+    gap: 0px; /* ระยะห่างระหว่างรายการ */
+}
+.button-data{ 
+    margin-top: 20px;
+    background-color: #318CE7;
+    color: white;
+    border: none;
+    width: 200px;
+    height: 60px;
+    border-radius: 50px;
+    font-size: 24px;
+    cursor: pointer;
+    box-shadow: 0 1 5px 0 black; /* เพิ่มเงา */
+
+}
+.button-data:hover { 
+    background-color: #b6b6b8;
+}
+.button-more{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+

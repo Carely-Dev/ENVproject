@@ -1,0 +1,60 @@
+import NavBar from "../NavBar.js"
+import Slide2 from "./Slide2.js"
+import React, { useState, useEffect } from "react";
+import BeatLoader from "react-spinners/BeatLoader";
+import "./loading.css"
+import Info from "./Data.js"
+import Contect from "./contect.js"
+import OtherPage from "./Other.js"
+const Page2 = () => {  
+    const [loading, setLoading] = useState(false);
+    const infoText = <div>
+    <span style={{ fontSize: '28px' }}>มีจุดประสงค์ <br/>&emsp;เพื่อปรับปรุงสวัสดิภาพของสุนัขและแมวในเอเชีย <br/>ส่งผลให้ชีวิตดีขึ้นสําหรับทั้งชุมชนสัตว์และมนุษย์ </span><br/>
+    <br/>
+    กิจกรรมที่มูลนิธิให้ความช่วยเหลือ<br />
+    &emsp;• การให้ความช่วยเหลือสุนัข<br />
+    &emsp;• การทำหมัน  <br />
+    &emsp;• การฉีดวัคซีน  <br />
+    &emsp;• การรักษาพยาบาล   <br />
+    &emsp;• ศูนย์พักพิง  <br />
+    &emsp;• การอุปการะ
+  </div>
+  const infolocal = <div>
+        "มูลนิธิเพื่อสุนัขในซอย ซ.ไม้ขาว10 ม.4 ต.ไม้ขาว อ.ถลาง จ.ภูเก็ต 83110 <br/>เปิดทำการในวันจันทร์-วันศุกร์ ตั้งแต่เวลา 08:00 - 21:00 น."
+    </div>
+    useEffect(() => { 
+        setLoading(true);
+        setTimeout(() => { 
+            setLoading(false);
+        }, 1000);
+    }, []);
+    return (
+        <div   > 
+            {loading ? (
+                <BeatLoader className="page" color="#318CE7" size={50} />
+            ) : (
+                <div>
+                    <div className="name">
+                        <NavBar />
+                        
+                    </div>
+                    <div className="slide">
+                        <Slide2 />
+                    </div>
+                    <div className="Info-data"> 
+                        <Info img="https://drive.google.com/uc?id=1dCi8KvlNGD9AgUFhly7A-GkCMyBZ3S4e" name="มูลนิธิมะเร็งท่อน้ำดี คณะแพทยศาสตร์ มข." info={infoText}/>
+                        <Contect info1="clinic@soidog.org" info2="076 681 029" info3={infolocal} link="https://www.soidog.org/th/content/contact-us" link1="https://www.facebook.com/SoiDogInThai/"/>
+                        <OtherPage />
+                    </div>
+                    
+
+                    
+                    
+                </div>
+            )}
+            
+                
+        </div>    
+    )
+} 
+export default Page2;

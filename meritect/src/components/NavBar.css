@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Noto+Sans+Thai&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap');
+.nav-bar{ 
+    max-width: 1170px;
+    height: 120px;
+    margin: 0 auto;
+    display: flex; 
+    justify-content: space-between;
+    /* border: 1px solid red ; */
+
+    
+}
+ul { 
+    max-width: 514px;
+    height: 120px;
+    display: flex; 
+    list-style: none; 
+    padding: 10px; 
+    /* border : 1px solid blue; */
+    flex-shrink: 0;
+} 
+li { 
+    color: #318CE7;
+    font-family: Itim;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;    
+    margin-top: 35px;
+    font-family: 'Kanit', sans-serif;
+    box-sizing: border-box;
+    /* border : 1px solid blue; */
+}
+a{ 
+    text-decoration: none;
+    color: #318CE7;
+}
+.list-1 { 
+    width: 130px;
+    height: 32px;
+    flex-shrink: 0; 
+    margin-right: 32px;
+}
+.list-2  { 
+    width: 160px;
+    height: 24px;
+    flex-shrink: 0;
+    margin-right: 53px;
+}
+.list-3 { 
+    width: 139px;
+    height: 30px;
+    flex-shrink: 0;
+    margin-right: 0px;
+}
+a:hover {
+    box-sizing: border-box;
+    bottom: 50px;
+    height: 90px;
+    color: rgb(204, 204, 204);
+    
+  }
