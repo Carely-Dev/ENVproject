@@ -34,16 +34,16 @@ function App() {
         <Route path="/บ้านพักคนชรานักบุญโยเซฟขอนแก่น" element={<Page3 data={data[3]}/>} />
         <Route path="/มูลนิธิเครือข่ายมะเร็ง" element={<Page4 data={data[4]}/>} />
         <Route path="/มูลนิธิตะวันฉายเพื่อผู้ป่วยปากแหว่งเพดานโหว่และพิการทางศีรษะและใบหน้า" element={<Page5 data={data[5]}/>} />
-        <Route path="/saved souls foundation" element={<Page6 />} />
-        <Route path="/Page7" element={<Page7 />} />
-        <Route path="/Page8" element={<Page8 />} />
-        <Route path="/Page9" element={<Page9 />} /> 
-        <Route path="/Page10" element={<Page10 />} />
-        <Route path="/Page11" element={<Page11 />} />
-        <Route path="/Page12" element={<Page12 />} />
-        <Route path="/Page13" element={<Page13 />} />
-        <Route path="/Page14" element={<Page14 />} />
-        <Route path="/Page15" element={<Page15 />} />
+        <Route path="/saved souls foundation" element={<Page6 data={data[6]} />} />
+        <Route path="/มูลนิธิบ้านสงเคราะห์สัตว์พิการ (home4animals)" element={<Page7 data={data[7]}/>} />
+        <Route path="/มูลนิธิช่วยเหลือเด็ก  (บ้านลูกรัก)" element={<Page8 data={data[8]}/>} />
+        <Route path="/มูลนิธิโรคมะเร็งโรงพยาบาลศิริราช" element={<Page9 data={data[9]}/>} /> 
+        <Route path="/มูลนิธิบ้านแห่งความเมตตา" element={<Page10 data={data[10]}/>} />
+        <Route path="/Kitwichan Life Care" element={<Page11 data={data[11]}/>} />
+        <Route path="/สถาบันมะเร็งแห่งชาติ" element={<Page12 data={data[12]}/>} />
+        <Route path="/ขอนแก่นโฮมแคร์" element={<Page13 data={data[13]}/>} />
+        <Route path="/มูลนิธิสายธารสุขใจ" element={<Page14 data={data[14]}/>} />
+        <Route path="/FOPDEV" element={<Page15 data={data[15]}/>} />
         <Route path="/Page16" element={<Page16 />} />
         <Route path="/Page17" element={<Page17 />} />
         <Route path="/Page18" element={<Page18 />} />
