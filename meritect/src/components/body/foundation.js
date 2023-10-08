@@ -80,11 +80,9 @@ const Foundation = () => {
             {selectedData.map((item,index) => {
     return (
         <div>
-            {loading ? (
-                <BeatLoader className="page" color="#318CE7" size={50} />
-            ) : (
+            
                 <Foun_1 key={index} image={item.image} name={item.name} link={item.link} />
-            )}
+            
         </div>
         
     )

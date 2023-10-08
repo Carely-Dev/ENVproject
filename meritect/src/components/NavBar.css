@@ -1,13 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Itim&family=Noto+Sans+Thai&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap');
 .nav-bar{ 
-    max-width: 1170px;
+    /* position: fixed; */
+    position: fixed;
+    z-index: 200;
+    max-width: inherit;
+    width: 100%;
     height: 120px;
     margin: 0 auto;
     display: flex; 
     justify-content: space-between;
+    background-color: white;
     /* border: 1px solid red ; */
-
+    
     
 }
 ul { 
@@ -29,12 +34,15 @@ li {
     margin-top: 35px;
     font-family: 'Kanit', sans-serif;
     box-sizing: border-box;
+
     /* border : 1px solid blue; */
 }
-a{ 
+
+a {
     text-decoration: none;
     color: #318CE7;
 }
+
 .list-1 { 
     width: 130px;
     height: 32px;

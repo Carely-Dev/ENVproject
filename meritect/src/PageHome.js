@@ -23,6 +23,7 @@ const PageHome = () => {
             <Slide/>
             <Info/>
             <Foundation/>
+            
         </div>
             )}
         </div>
