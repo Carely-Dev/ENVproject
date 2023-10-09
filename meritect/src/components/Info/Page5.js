@@ -28,6 +28,7 @@ const infoname = <div>
 มูลนิธิตะวันฉายเพื่อผู้ป่วยปากแหว่งเพดานโหว่และพิการทางศีรษะและใบหน้า
 </div>
     useEffect(() => { 
+        window.scrollTo(0, 0);
         setLoading(true);
         setTimeout(() => { 
             setLoading(false);

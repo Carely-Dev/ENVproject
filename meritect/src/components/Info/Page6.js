@@ -10,6 +10,7 @@ const Page6 = ({data}) => {
     const [loading, setLoading] = useState(false);
 
     useEffect(() => { 
+        window.scrollTo(0, 0);
         setLoading(true);
         setTimeout(() => { 
             setLoading(false);

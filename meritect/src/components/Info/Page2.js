@@ -18,6 +18,7 @@ const Page2 = ({data}) => {
         ห้อง 5307 ตึกเวชวิชชาคาร คณะแพทยศาสตร์ มหาวิทยาลัยขอนแก่น <br/> Thailand, Khon Kaen 
     </div>
     useEffect(() => { 
+        window.scrollTo(0, 0);
         setLoading(true);
         setTimeout(() => { 
             setLoading(false);

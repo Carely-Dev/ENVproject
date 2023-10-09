@@ -28,6 +28,7 @@ const infoname = <div>
 บ้านพักเด็กและครอบครัว จ.ขอนแก่น<br/> จ.ขอนแก่น
 </div>
     useEffect(() => { 
+        window.scrollTo(0, 0);
         setLoading(true);
         setTimeout(() => { 
             setLoading(false);
