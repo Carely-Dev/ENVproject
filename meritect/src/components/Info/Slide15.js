@@ -6,7 +6,10 @@ import Icon1 from '../image/Group7.png'
 import Icon2 from '../image/Group8.png'
 const Slide15 = () => {
     const images = [
-        "https://drive.google.com/uc?id=1m1o5xx_VLkRMh2XdOS8n6I20B5xF41Qf"
+        "https://drive.google.com/uc?export=download&id=1U8uZ4l1f7fEZlpRefLzwQW8G5vsEZnUn",
+        "https://drive.google.com/uc?export=download&id=1ZKowoVNb2n3katMs3CvtC8whvzFTdJAG",
+        "https://drive.google.com/uc?export=download&id=1A2bWm6_f0xZHW0P_ppGjb1dpmWN7vEno"    
+
     ];
     const buttonStyle = {
         width: "32px",
@@ -29,6 +32,16 @@ const Slide15 = () => {
             <Slide {...properties}>
             <div className="each-slide-effect">
                 <div style={{ 'backgroundImage': `url(${images[0]})` }}>
+                    
+                </div>
+            </div>
+            <div className="each-slide-effect">
+                <div style={{ 'backgroundImage': `url(${images[1]})` }}>
+                    
+                </div>
+            </div>
+            <div className="each-slide-effect">
+                <div style={{ 'backgroundImage': `url(${images[2]})` }}>
                     
                 </div>
             </div>
