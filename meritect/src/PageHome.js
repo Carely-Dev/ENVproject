@@ -3,6 +3,7 @@ import NavBar from './components/NavBar.js' ;
 import Slide from './components/Example.js';
 import Info from './components/info.js';
 import Foundation from './components/body/foundation.js';
+import Footer from "./components/body/Footer.js";
 import  { useState, useEffect } from "react";
 import BeatLoader from "react-spinners/BeatLoader";
 const PageHome = () => { 
@@ -13,7 +14,7 @@ const PageHome = () => {
         setTimeout(() => { 
             setLoading(false);
         }, 1000);
-    }, []);
+    }, []); 
     return (
         <div>
             {loading ? (
@@ -24,7 +25,7 @@ const PageHome = () => {
             <Slide/>
             <Info/>
             <Foundation/>
-            
+            <Footer/>
         </div>
             )}
         </div>
