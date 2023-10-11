@@ -3,7 +3,7 @@
     text-align: center;
     margin  : 0 auto ;
     height: 900px;
-    /* border: 1px solid red; */
+    border: 1px solid rgb(255, 255, 255);
 }
 .contect-Name-1 {
     font-size: 32px;
