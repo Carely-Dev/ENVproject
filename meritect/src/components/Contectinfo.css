@@ -1,0 +1,50 @@
+.contect-1 { 
+    height: 300px;
+    text-align: center;
+    margin  : 0 auto ;
+    height: 900px;
+    /* border: 1px solid red; */
+}
+.contect-Name-1 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 150px;
+    margin-left: 20px;
+    color : #318CE7;
+    
+
+}
+.contect-info-1-1{ 
+    margin-top: 20px;
+    font-size: 24px;
+    text-align: start;
+    width: 900px;
+    margin : 0 auto ;
+    font-size: 30px;
+    
+}
+.contect-info-2-1{ 
+    margin-top: 20px;
+    font-size: 24px;
+    text-align: start;
+    width: 900px;
+    margin : 0 auto ;
+    font-size: 30px;
+    
+}
+.contect-info-3-1{ 
+    margin-top: 25px;
+    font-size: 24px;
+    text-align: start;
+    width: 900px;
+    margin : 0 auto ;
+    font-size: 30px;
+
+
+    
+}
+.contect-1 span { 
+    font-weight: bold;
+}
+
+

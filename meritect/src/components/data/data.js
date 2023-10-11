@@ -81,6 +81,21 @@ const data ={
         {image:"https://drive.google.com/uc?id=1cQ7jNFwmwYgVbo1KemHKgKaAbcLFDtQD" ,name: "มูลนิธิมะเร็งท่อน้ำดี คณะแพทยศาสตร์ มข." ,link:"/มูลนิธิมะเร็งท่อน้ำดีคณะแพทยศาสตร์ มข."},
         {image:"https://drive.google.com/uc?id=1mjCt0AWfIf4158qSq4bgkP5AFzN5PZ_X" ,name: "มูลนิธิเครือข่ายมะเร็ง" ,link:"/มูลนิธิเครือข่ายมะเร็ง"},
         {image:"https://drive.google.com/uc?id=1c5FHXVHWjsW_r4Yb80oZW8bjHB82kY_f" ,name: infoText ,link:"/มูลนิธิโรคมะเร็งโรงพยาบาลศิริราช"},
+    ],
+    13:[
+        {image:"https://drive.google.com/uc?id=1tkKApDrKH-Mr-0DQT2nc9r8ZDx6oG6E9" ,name: "Kitwichan Life Care" ,link:"/Kitwichan Life Care"},
+        {image:"https://drive.google.com/uc?id=1CDOEQaElKAzMkdRz9FrYd9o_1YiBf8eG" ,name: "มูลนิธิสายธารสุขใจ" ,link:"/มูลนิธิสายธารสุขใจ"},
+        {image:"https://drive.google.com/uc?id=1KXeBY74jRuRaZnjdiD38oQCJPeMdz_Uf" ,name: "FOPDEV" ,link:"/FOPDEV"}
+    ],
+    14:[
+        {image:"https://drive.google.com/uc?id=1tkKApDrKH-Mr-0DQT2nc9r8ZDx6oG6E9" ,name: "Kitwichan Life Care" ,link:"/Kitwichan Life Care"},
+        {image:"https://drive.google.com/uc?id=1KXeBY74jRuRaZnjdiD38oQCJPeMdz_Uf" ,name: "FOPDEV" ,link:"/FOPDEV"},
+        {image:"https://drive.google.com/uc?id=18EuafBqoYD_bJq45o_bziLecksBykk2H" ,name: "ขอนแก่นโฮมแคร์" ,link:"/ขอนแก่นโฮมแคร์"},
+    ],
+    15:[
+        {image:"https://drive.google.com/uc?id=1tkKApDrKH-Mr-0DQT2nc9r8ZDx6oG6E9" ,name: "Kitwichan Life Care" ,link:"/Kitwichan Life Care"},
+        {image:"https://drive.google.com/uc?id=1CDOEQaElKAzMkdRz9FrYd9o_1YiBf8eG" ,name: "มูลนิธิสายธารสุขใจ" ,link:"/มูลนิธิสายธารสุขใจ"},
+        {image:"https://drive.google.com/uc?id=18EuafBqoYD_bJq45o_bziLecksBykk2H" ,name: "ขอนแก่นโฮมแคร์" ,link:"/ขอนแก่นโฮมแคร์"},
     ]
 }
 

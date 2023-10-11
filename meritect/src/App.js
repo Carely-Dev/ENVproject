@@ -17,10 +17,8 @@ import Page13 from "./components/Info/Page13.js"
 import Page14 from "./components/Info/Page14.js"
 import Page15 from "./components/Info/Page15.js"
 import PageManu from './components/PageManu.js';
-import Page17 from "./components/Info/Page17.js"
-import Page18 from "./components/Info/Page18.js"
-import Page19 from "./components/Info/Page19.js"
-import Page20 from "./components/Info/Page20.js"
+import PageContect from './components/Contect.js'
+
 import data from './components/data/data';
 
 import { Routes, Route } from 'react-router';
@@ -46,10 +44,7 @@ function App() {
         <Route path="/มูลนิธิสายธารสุขใจ" element={<Page14 data={data[14]}/>} />
         <Route path="/FOPDEV" element={<Page15 data={data[15]}/>} />
         <Route path="/รายชื่อมูลนิธิ" element={<PageManu />} />
-        <Route path="/Page17" element={<Page17 />} />
-        <Route path="/Page18" element={<Page18 />} />
-        <Route path="/Page19" element={<Page19 />} />
-        <Route path="/Page20" element={<Page20 />} />
+        <Route path="/ติดต่อเรา" element={<PageContect />} />
       </Routes>
       
       
